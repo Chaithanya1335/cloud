@@ -1,0 +1,8 @@
+README.md
+setup.py
+Cloud.egg-info/PKG-INFO
+Cloud.egg-info/SOURCES.txt
+Cloud.egg-info/dependency_links.txt
+Cloud.egg-info/requires.txt
+Cloud.egg-info/top_level.txt
+src/__init__.py
