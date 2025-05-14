@@ -3,5 +3,7 @@ matplotlib
 scikit-learn
 numpy 
 pandas
+catboost
+xgboost
 
--e .
+# -e .

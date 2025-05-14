@@ -5,4 +5,14 @@ Cloud.egg-info/SOURCES.txt
 Cloud.egg-info/dependency_links.txt
 Cloud.egg-info/requires.txt
 Cloud.egg-info/top_level.txt
+src/Exception.py
 src/__init__.py
+src/loger.py
+src/utils.py
+src/Components/__init__.py
+src/Components/data_ingestion.py
+src/Components/data_transformation.py
+src/Components/model_trainer.py
+src/Pipeline/__init__.py
+src/Pipeline/prediction_pipeline.py
+src/Pipeline/training_pipeline.py

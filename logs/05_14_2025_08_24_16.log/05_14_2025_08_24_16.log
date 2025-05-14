@@ -1,0 +1,6 @@
+[ 2025-05-14 08:24:17,657 ] 27 root - INFO -  Data Ingestion started !  
+[ 2025-05-14 08:24:17,660 ] 30 root - INFO -  Reading Data completed   
+[ 2025-05-14 08:24:17,660 ] 35 root - INFO -  Data splitting started   
+[ 2025-05-14 08:24:17,669 ] 37 root - INFO -  Data splitting Completed   
+[ 2025-05-14 08:24:17,669 ] 42 root - INFO -  Train and Test Data saved   
+[ 2025-05-14 08:24:17,669 ] 44 root - INFO - Data Ingestion Completed !  

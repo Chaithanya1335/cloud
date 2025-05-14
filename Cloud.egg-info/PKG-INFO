@@ -8,3 +8,5 @@ Requires-Dist: matplotlib
 Requires-Dist: scikit-learn
 Requires-Dist: numpy
 Requires-Dist: pandas
+Requires-Dist: catboost
+Requires-Dist: xgboost
