@@ -73,10 +73,10 @@ class DataTransformation:
             target_column = "math_score"
             logging.info(" train and test data read sucessfully ")
 
-            input_train_df = train_data.drop(columns=[target_column])
+            input_train_df = train_data.drop(columns=[target_column],axis=1)
             target_train_df = train_data[target_column]
 
-            input_test_df = test_data.drop(columns=[target_column])
+            input_test_df = test_data.drop(columns=[target_column],axis=1)
             target_test_df = test_data[target_column]
 
             logging.info("Loading Preprocessor object")
