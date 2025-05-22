@@ -4,6 +4,7 @@ from src.loger import logging
 from sklearn.model_selection import train_test_split
 from dataclasses import dataclass
 from src.Components.data_transformation import DataTransformation
+from src.Components.model_trainer import ModelTrainer
 import pandas as pd
 
 
@@ -56,3 +57,4 @@ if __name__ == "__main__":
     train_path,test_path = obj.initiate_data_ingestion() 
     data_transformation = DataTransformation()
     train_arr,test_arr,preprocessor_path = data_transformation.initiate_data_transformation(train_path=train_path,test_path=test_path)
+    r2_score = ModelTrainer().initiate_model_training(train_arr,test_arr)
