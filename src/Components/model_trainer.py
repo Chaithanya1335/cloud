@@ -49,8 +49,21 @@ class ModelTrainer:
                 "CatBoostRegressor":CatBoostRegressor()
             }
 
+            params = {
+                "Linear Regression": {'fit_intercept':[True,False]},
+                "LogisticRegression": {"penalty" : ['l1', 'l2', 'elasticnet', None]},
+                "DecisionTreeRegressor":{"criterion" : ["squared_error", "friedman_mse", "absolute_error", "poisson"]},
+                "KNeighborsRegressor": {"n_neighbors":[5,10,15]},
+                "GradientBoostingRegressor":{"loss" : ['squared_error', 'absolute_error', 'huber', 'quantile']},
+                "AdaBoostRegressor":{"n_estimators":[50,100,150]},
+                "RandomForestRegressor":{"n_estimators":[50,100,150]},
+                "ExtraTreesRegressor":{"n_estimators":[50,100,150]},
+                "XGBRegressor": {'learning_rate':[.1,.01,.05,.001]},
+                "CatBoostRegressor":{'learning_rate':[.1,.01,.05,.001]}
+            }
 
-            evaluate_report:dict = evaluate_models(x_train=x_train,y_train=y_train,x_test=x_test,y_test=y_test,models = models)
+
+            evaluate_report:dict = evaluate_models(x_train=x_train,y_train=y_train,x_test=x_test,y_test=y_test,models = models,params=params)
 
             best_score = max(evaluate_report.values())
 
