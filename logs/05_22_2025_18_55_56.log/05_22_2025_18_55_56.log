@@ -1,0 +1,20 @@
+[ 2025-05-22 18:55:57,653 ] 29 root - INFO -  Data Ingestion started !  
+[ 2025-05-22 18:55:57,657 ] 32 root - INFO -  Reading Data completed   
+[ 2025-05-22 18:55:57,661 ] 37 root - INFO -  Data splitting started   
+[ 2025-05-22 18:55:57,663 ] 39 root - INFO -  Data splitting Completed   
+[ 2025-05-22 18:55:57,666 ] 44 root - INFO -  Train and Test Data saved   
+[ 2025-05-22 18:55:57,666 ] 46 root - INFO - Data Ingestion Completed !  
+[ 2025-05-22 18:55:57,666 ] 68 root - INFO - Data Transformation Started 
+[ 2025-05-22 18:55:57,685 ] 74 root - INFO -  train and test data read sucessfully  
+[ 2025-05-22 18:55:57,686 ] 82 root - INFO - Loading Preprocessor object 
+[ 2025-05-22 18:55:57,686 ] 51 root - INFO - Numerical and Categorical Pipelines Created  
+[ 2025-05-22 18:55:57,688 ] 58 root - INFO - Preprocessor object Created 
+[ 2025-05-22 18:55:57,701 ] 93 root - INFO -  data transformation completed  
+[ 2025-05-22 18:55:57,701 ] 100 root - INFO - preprocessor object saved 
+[ 2025-05-22 18:55:57,702 ] 28 root - INFO - Splitting the data 
+[ 2025-05-22 18:55:57,702 ] 37 root - INFO - Models initializing 
+[ 2025-05-22 18:55:57,702 ] 26 root - INFO - Model Training started 
+[ 2025-05-22 18:55:57,702 ] 30 root - INFO - Hyper Parameter Tuning Started 
+[ 2025-05-22 18:56:18,226 ] 48 root - INFO - Model Training and Evaluation Completed 
+[ 2025-05-22 18:56:18,229 ] 87 root - INFO - Model saved  
+[ 2025-05-22 18:56:18,229 ] 89 root - INFO - Model Training Completed 
